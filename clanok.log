@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  6 OCT 2022 09:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  13 OCT 2022 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,33 +321,40 @@ LaTeX Font Info:    Trying to load font information for IL2+cmtt on input line
 (D:\Users\damia\AppData\Local\Programs\MiKTeX\tex/cslatex/base\il2cmtt.fd
 File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
 )
-No file clanok.bbl.
-[1
+(clanok.bbl
 
-{C:/Users/damia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(clanok.aux)
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+{C:/Users/damia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (clanok.
+aux)
 Package rerunfilecheck Info: File `clanok.out' has not changed.
 (rerunfilecheck)             Checksum: E3EAA3A20D8B8D097DD6ADE368252123;645.
  ) 
 Here is how much of TeX's memory you used:
- 9764 strings out of 478338
- 157175 string characters out of 2836700
- 467212 words of memory out of 3000000
- 28069 multiletter control sequences out of 15000+600000
- 476287 words of font info for 45 fonts, out of 8000000 for 9000
+ 9771 strings out of 478338
+ 157282 string characters out of 2836700
+ 470212 words of memory out of 3000000
+ 28071 multiletter control sequences out of 15000+600000
+ 476914 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,7n,77p,237b,485s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,7n,77p,716b,486s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\c
-sr10.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dp
-i720\csbx12.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csf
-onts/dpi600\csbx9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/publ
-ic/csfonts/dpi600\cstt9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfou
-r/public/csfonts/dpi600\csr9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/
-ljfour/public/csfonts/dpi600\csr12.pk> <C:\Users\damia\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/public/csfonts/dpi600\csr17.pk>
-Output written on clanok.pdf (1 page, 52223 bytes).
+ssl10.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/d
+pi600\csr10.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csf
+onts/dpi720\csbx12.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/pub
+lic/csfonts/dpi600\csbx9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/public/csfonts/dpi600\cstt9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/p
+k/ljfour/public/csfonts/dpi600\csr9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fo
+nts/pk/ljfour/public/csfonts/dpi600\csr12.pk> <C:\Users\damia\AppData\Local\MiK
+TeX\fonts/pk/ljfour/public/csfonts/dpi600\csr17.pk>
+Output written on clanok.pdf (2 pages, 74709 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
