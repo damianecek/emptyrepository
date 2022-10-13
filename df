@@ -1,0 +1,322 @@
+[33mcommit 11ea6a458322dc477c23bbf9254078490128ae1b[m[33m ([m[1;36mHEAD -> [m[1;32mpredbeznaVerzia[m[33m)[m
+Author: damianecek <damian.parigal@gmail.com>
+Date:   Thu Oct 13 09:35:14 2022 +0200
+
+    AbstraktaUvod
+
+[1mdiff --git a/clanok.aux b/clanok.aux[m
+[1mindex afb8e2f..88606fe 100644[m
+[1m--- a/clanok.aux[m
+[1m+++ b/clanok.aux[m
+[36m@@ -19,18 +19,18 @@[m
+ \gdef\HyperFirstAtBeginDocument#1{#1}[m
+ \providecommand\HyField@AuxAddToFields[1]{}[m
+ \providecommand\HyField@AuxAddToCoFields[2]{}[m
+[31m-\bibdata{literatura.bib}[m
+[32m+[m[32m\bibdata{ref.bib}[m
+ \bibstyle{plain}[m
+ \babel@aux{slovak}{}[m
+ \@writefile{toc}{\contentsline {section}{\numberline {1}Úvod}{1}{section.1}\protected@file@percent }[m
+[31m-\@writefile{toc}{\contentsline {section}{\numberline {2}Nejaká časť}{1}{section.2}\protected@file@percent }[m
+[31m-\newlabel{nejaka}{{2}{1}{Nejaká časť}{section.2}{}}[m
+[31m-\@writefile{toc}{\contentsline {section}{\numberline {3}Iná časť}{1}{section.3}\protected@file@percent }[m
+[31m-\newlabel{ina}{{3}{1}{Iná časť}{section.3}{}}[m
+[31m-\@writefile{toc}{\contentsline {section}{\numberline {4}Dôležitá časť}{1}{section.4}\protected@file@percent }[m
+[31m-\newlabel{dolezita}{{4}{1}{Dôležitá časť}{section.4}{}}[m
+[31m-\@writefile{toc}{\contentsline {section}{\numberline {5}Ešte dôležitejšia časť}{1}{section.5}\protected@file@percent }[m
+[31m-\newlabel{dolezitejsia}{{5}{1}{Ešte dôležitejšia časť}{section.5}{}}[m
+[31m-\@writefile{toc}{\contentsline {section}{\numberline {6}Záver}{1}{section.6}\protected@file@percent }[m
+[31m-\newlabel{zaver}{{6}{1}{Záver}{section.6}{}}[m
+[31m-\gdef \@abspage@last{1}[m
+[32m+[m[32m\@writefile{toc}{\contentsline {section}{\numberline {2}Nejaká časť}{2}{section.2}\protected@file@percent }[m
+[32m+[m[32m\newlabel{nejaka}{{2}{2}{Nejaká časť}{section.2}{}}[m
+[32m+[m[32m\@writefile{toc}{\contentsline {section}{\numberline {3}Iná časť}{2}{section.3}\protected@file@percent }[m
+[32m+[m[32m\newlabel{ina}{{3}{2}{Iná časť}{section.3}{}}[m
+[32m+[m[32m\@writefile{toc}{\contentsline {section}{\numberline {4}Dôležitá časť}{2}{section.4}\protected@file@percent }[m
+[32m+[m[32m\newlabel{dolezita}{{4}{2}{Dôležitá časť}{section.4}{}}[m
+[32m+[m[32m\@writefile{toc}{\contentsline {section}{\numberline {5}Ešte dôležitejšia časť}{2}{section.5}\protected@file@percent }[m
+[32m+[m[32m\newlabel{dolezitejsia}{{5}{2}{Ešte dôležitejšia časť}{section.5}{}}[m
+[32m+[m[32m\@writefile{toc}{\contentsline {section}{\numberline {6}Záver}{2}{section.6}\protected@file@percent }[m
+[32m+[m[32m\newlabel{zaver}{{6}{2}{Záver}{section.6}{}}[m
+[32m+[m[32m\gdef \@abspage@last{2}[m
+[1mdiff --git a/clanok.bbl b/clanok.bbl[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9b431fa[m
+[1m--- /dev/null[m
+[1m+++ b/clanok.bbl[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32m\begin{thebibliography}{}[m
+[32m+[m
+[32m+[m[32m\end{thebibliography}[m
+[1mdiff --git a/clanok.blg b/clanok.blg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..529512d[m
+[1m--- /dev/null[m
+[1m+++ b/clanok.blg[m
+[36m@@ -0,0 +1,55 @@[m
+[32m+[m[32mThis is BibTeX, Version 0.99d[m
+[32m+[m[32mCapacity: max_strings=200000, hash_size=200000, hash_prime=170003[m
+[32m+[m[32mThe top-level auxiliary file: clanok.aux[m
+[32m+[m[32mReallocating 'name_of_file' (item size: 1) to 8 items.[m
+[32m+[m[32mI couldn't open database file ref.bib[m
+[32m+[m[32m---line 22 of file clanok.aux[m
+[32m+[m[32m : \bibdata{ref.bib[m
+[32m+[m[32m :                 }[m
+[32m+[m[32mI'm skipping whatever remains of this command[m
+[32m+[m[32mReallocating 'name_of_file' (item size: 1) to 6 items.[m
+[32m+[m[32mThe style file: plain.bst[m
+[32m+[m[32mI found no \citation commands---while reading file clanok.aux[m
+[32m+[m[32mI found no database files---while reading file clanok.aux[m
+[32m+[m[32mYou've used 0 entries,[m
+[32m+[m[32m            2118 wiz_defined-function locations,[m
+[32m+[m[32m            497 strings with 3992 characters,[m
+[32m+[m[32mand the built_in function-call counts, 18 in all, are:[m
+[32m+[m[32m= -- 0[m
+[32m+[m[32m> -- 0[m
+[32m+[m[32m< -- 0[m
+[32m+[m[32m+ -- 0[m
+[32m+[m[32m- -- 0[m
+[32m+[m[32m* -- 2[m
+[32m+[m[32m:= -- 7[m
+[32m+[m[32madd.period$ -- 0[m
+[32m+[m[32mcall.type$ -- 0[m
+[32m+[m[32mchange.case$ -- 0[m
+[32m+[m[32mchr.to.int$ -- 0[m
+[32m+[m[32mcite$ -- 0[m
+[32m+[m[32mduplicate$ -- 0[m
+[32m+[m[32mempty$ -- 1[m
+[32m+[m[32mformat.name$ -- 0[m
+[32m+[m[32mif$ -- 1[m
+[32m+[m[32mint.to.chr$ -- 0[m
+[32m+[m[32mint.to.str$ -- 0[m
+[32m+[m[32mmissing$ -- 0[m
+[32m+[m[32mnewline$ -- 3[m
+[32m+[m[32mnum.names$ -- 0[m
+[32m+[m[32mpop$ -- 0[m
+[32m+[m[32mpreamble$ -- 1[m
+[32m+[m[32mpurify$ -- 0[m
+[32m+[m[32mquote$ -- 0[m
+[32m+[m[32mskip$ -- 1[m
+[32m+[m[32mstack$ -- 0[m
+[32m+[m[32msubstring$ -- 0[m
+[32m+[m[32mswap$ -- 0[m
+[32m+[m[32mtext.length$ -- 0[m
+[32m+[m[32mtext.prefix$ -- 0[m
+[32m+[m[32mtop$ -- 0[m
+[32m+[m[32mtype$ -- 0[m
+[32m+[m[32mwarning$ -- 0[m
+[32m+[m[32mwhile$ -- 0[m
+[32m+[m[32mwidth$ -- 0[m
+[32m+[m[32mwrite$ -- 2[m
+[32m+[m[32m(There were 3 error messages)[m
+[1mdiff --git a/clanok.log b/clanok.log[m
+[1mindex e2efc43..323a1b0 100644[m
+[1m--- a/clanok.log[m
+[1m+++ b/clanok.log[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  6 OCT 2022 09:23[m
+[32m+[m[32mThis is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  13 OCT 2022 09:31[m
+ entering extended mode[m
+  restricted \write18 enabled.[m
+  %&-line parsing enabled.[m
+[36m@@ -321,33 +321,40 @@[m [mLaTeX Font Info:    Trying to load font information for IL2+cmtt on input line[m
+ (D:\Users\damia\AppData\Local\Programs\MiKTeX\tex/cslatex/base\il2cmtt.fd[m
+ File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions[m
+ )[m
+[31m-No file clanok.bbl.[m
+[31m-[1[m
+[32m+[m[32m(clanok.bbl[m
+ [m
+[31m-{C:/Users/damia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}][m
+[31m-(clanok.aux)[m
+[32m+[m[32mLaTeX Warning: Empty `thebibliography' environment on input line 3.[m
+[32m+[m
+[32m+[m[32m)[m
+[32m+[m[32mUnderfull \vbox (badness 10000) has occurred while \output is active [][m
+[32m+[m
+[32m+[m[32m [1[m
+[32m+[m
+[32m+[m[32m{C:/Users/damia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (clanok.[m
+[32m+[m[32maux)[m
+ Package rerunfilecheck Info: File `clanok.out' has not changed.[m
+ (rerunfilecheck)             Checksum: E3EAA3A20D8B8D097DD6ADE368252123;645.[m
+  ) [m
+ Here is how much of TeX's memory you used:[m
+[31m- 9764 strings out of 478338[m
+[31m- 157175 string characters out of 2836700[m
+[31m- 467212 words of memory out of 3000000[m
+[31m- 28069 multiletter control sequences out of 15000+600000[m
+[31m- 476287 words of font info for 45 fonts, out of 8000000 for 9000[m
+[32m+[m[32m 9771 strings out of 478338[m
+[32m+[m[32m 157282 string characters out of 2836700[m
+[32m+[m[32m 470212 words of memory out of 3000000[m
+[32m+[m[32m 28071 multiletter control sequences out of 15000+600000[m
+[32m+[m[32m 476914 words of font info for 46 fonts, out of 8000000 for 9000[m
+  1141 hyphenation exceptions out of 8191[m
+[31m- 72i,7n,77p,237b,485s stack positions out of 10000i,1000n,20000p,200000b,80000s[m
+[32m+[m[32m 72i,7n,77p,716b,486s stack positions out of 10000i,1000n,20000p,200000b,80000s[m
+  <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\c[m
+[31m-sr10.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dp[m
+[31m-i720\csbx12.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csf[m
+[31m-onts/dpi600\csbx9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/publ[m
+[31m-ic/csfonts/dpi600\cstt9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfou[m
+[31m-r/public/csfonts/dpi600\csr9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/[m
+[31m-ljfour/public/csfonts/dpi600\csr12.pk> <C:\Users\damia\AppData\Local\MiKTeX\fon[m
+[31m-ts/pk/ljfour/public/csfonts/dpi600\csr17.pk>[m
+[31m-Output written on clanok.pdf (1 page, 52223 bytes).[m
+[32m+[m[32mssl10.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/d[m
+[32m+[m[32mpi600\csr10.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csf[m
+[32m+[m[32monts/dpi720\csbx12.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfour/pub[m
+[32m+[m[32mlic/csfonts/dpi600\csbx9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/pk/ljfo[m
+[32m+[m[32mur/public/csfonts/dpi600\cstt9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fonts/p[m
+[32m+[m[32mk/ljfour/public/csfonts/dpi600\csr9.pk> <C:\Users\damia\AppData\Local\MiKTeX\fo[m
+[32m+[m[32mnts/pk/ljfour/public/csfonts/dpi600\csr12.pk> <C:\Users\damia\AppData\Local\MiK[m
+[32m+[m[32mTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr17.pk>[m
+[32m+[m[32mOutput written on clanok.pdf (2 pages, 74709 bytes).[m
+ PDF statistics:[m
+[31m- 191 PDF objects out of 1000 (max. 8388607)[m
+[31m- 8 named destinations out of 1000 (max. 500000)[m
+[32m+[m[32m 262 PDF objects out of 1000 (max. 8388607)[m
+[32m+[m[32m 10 named destinations out of 1000 (max. 500000)[m
+  49 words of extra memory for PDF output out of 10000 (max. 10000000)[m
+ [m
+[1mdiff --git a/clanok.pdf b/clanok.pdf[m
+[1mindex 10bfd68..3be3bd3 100644[m
+[1m--- a/clanok.pdf[m
+[1m+++ b/clanok.pdf[m
+[36m@@ -5,23 +5,38 @@[m
+ [m
+                       Damián Parigal[m
+ [m
+[31m-                                                  Slovenská technická univerzita v Bratislave[m
+[31m-                                             Fakulta informatiky a informaèných technológií[m
+[32m+[m[32m                         Slovenská technická univerzita v Bratislave[m
+[32m+[m[32m                      Fakulta informatiky a informaèných technológií[m
+ [m
+                                           xparigal@stuba.sk[m
+ [m
+[31m-                                                                                   6. október 2022[m
+[32m+[m[32m                                         6. október 2022[m
+ [m
+                             Abstrakt[m
+ [m
+[31m-                      ...[m
+[32m+[m[32m           Virtuálna realita, poèítaèové, konzolové a mobilné hry u¾ pár rokov[m
+[32m+[m[32m       ovládajú svet. Preto by sa ani odvetvie vzdelávania nemalo od tejto témy[m
+[32m+[m[32m       di¹tancova» alebo hádza» na tento spôsob výuèby tieò. Deti sa u¾ od út-[m
+[32m+[m[32m       leho veku najviac uèia hrou, èi u¾ ide o rozoznávanie farieb, písmen alebo[m
+[32m+[m[32m       uèenie sa nových slov prípadne cudzí jazyk. Správne spracovanými a navr-[m
+[32m+[m[32m       hnutými hrami by sme sa vedeli nauèi» omnoho viac ak by sme túto prob-[m
+[32m+[m[32m       lematiku brali s vá¾nos»ou. Rôzne herné prvky spojené so simuláciami[m
+[32m+[m[32m       alebo grackými ukazovazeµmi by sa dali uplatni» v rôznych oblastiach[m
+[32m+[m[32m       výuèby a odboroch ako fyzika, chémia, informatika a omnoho viac.[m
+ [m
+ 1 Úvod[m
+[32m+[m
+[32m+[m[32mPoèítaèové hry majú veµmi pozitívny vplyv na zdokonaµovanie pozornosti ¹tu-[m
+[32m+[m[32mdentov. V tomto projekte by som sa chcel zamera» na konkrétne rie¹enie ubúda-[m
+[32m+[m[32mjucej pozornosti ¹tudentov od vzdelávania prostredníctvom poèítaèových hier.[m
+[32m+[m
+[32m+[m[32m                                                                             1[m
+[32m+[m[32m2                         LITERATÚRA[m
+[32m+[m
+ 2 Nejaká èas»[m
+ 3 Iná èas»[m
+ 4 Dôle¾itá èas»[m
+ 5 E¹te dôle¾itej¹ia èas»[m
+ 6 Záver[m
+[31m-[m
+[31m-                                                   1[m
+[32m+[m[32mLiteratúra[m
+ [m
+[1mdiff --git a/clanok.synctex.gz b/clanok.synctex.gz[m
+[1mindex 37ff485..9998938 100644[m
+Binary files a/clanok.synctex.gz and b/clanok.synctex.gz differ
+[1mdiff --git a/clanok.tex b/clanok.tex[m
+[1mindex a7ab763..c73a5a6 100644[m
+[1m--- a/clanok.tex[m
+[1m+++ b/clanok.tex[m
+[36m@@ -32,14 +32,16 @@[m
+ \maketitle[m
+ [m
+ \begin{abstract}[m
+[31m-\ldots[m
+[32m+[m
+[32m+[m[32mVirtuálna realita, počítačové, konzolové a mobilné hry už pár rokov ovládajú svet. Preto by sa ani odvetvie vzdelávania nemalo od tejto témy dištancovať alebo hádzať na tento spôsob výučby tieň. Deti sa už od útleho veku najviac učia hrou, či už ide o rozoznávanie farieb, písmen alebo učenie sa nových slov prípadne cudzí jazyk. Správne spracovanými a navrhnutými hrami by sme sa vedeli naučiť omnoho viac ak by sme túto problematiku brali s vážnosťou. Rôzne herné prvky spojené so simuláciami alebo grafickými ukazovazeľmi by sa dali uplatniť v rôznych oblastiach výučby a odboroch ako fyzika, chémia, informatika a omnoho viac.[m
+[32m+[m
+ \end{abstract}[m
+ [m
+ [m
+ [m
+ \section{Úvod}[m
+ [m
+[31m-[m
+[32m+[m[32mPočítačové hry majú veľmi pozitívny vplyv na zdokonaľovanie pozornosti študentov. V tomto projekte by som sa chcel zamerať na konkrétne riešenie ubúdajucej pozornosti študentov od vzdelávania prostredníctvom počítačových hier.[m
+ [m
+ \section{Nejaká časť} \label{nejaka}[m
+ [m
+[36m@@ -69,6 +71,6 @@[m
+ [m
+ [m
+ % týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete[m
+[31m-\bibliography{literatura.bib}[m
+[32m+[m[32m\bibliography{ref.bib}[m
+ \bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný[m
+ \end{document}[m
+[1mdiff --git a/literatura.bib b/literatura.bib[m
+[1mdeleted file mode 100644[m
+[1mindex f360351..0000000[m
+[1m--- a/literatura.bib[m
+[1m+++ /dev/null[m
+[36m@@ -1,47 +0,0 @@[m
+[31m-% kniha[m
+[31m-@book{Coplien:MPD,[m
+[31m-	author = "James O. Coplien",[m
+[31m-	title = "Multi-Paradigm Design for C++",[m
+[31m-	publisher = "Addison-Wesley",[m
+[31m-	year = 1999[m
+[31m-}[m
+[31m-[m
+[31m-% ÄŤlĂˇnok v ÄŤasopise[m
+[31m-@article{Czarnecki:Staged,[m
+[31m-    author = "Krzysztof Czarnecki and Simon Helsen and Ulrich Eisenecker",[m
+[31m-    title = "Staged Configuration Through Specialization and Multi-Level Configuration of Feature Models",[m
+[31m-    journal = "Software Process: Improvement and Practice",[m
+[31m-    volume = 10,[m
+[31m-    issue = 2,[m
+[31m-    month = apr # "/" # jun,[m
+[31m-    year = "2005",[m
+[31m-    pages = "143--169",[m
+[31m-}[m
+[31m-[m
+[31m-% ÄŤlĂˇnok v zbornĂ­ku[m
+[31m-@inproceedings{Czarnecki:Progress,[m
+[31m-	author = "Krzysztof Czarnecki and Chang Hwan Peter Kim",[m
+[31m-	title = "Cardinality-Based Feature Modeling and Constraints: A Progress Report",[m
+[31m-	booktitle = "International Workshop on Software Factories, OOPSLA 2005",[m
+[31m-	month = oct,[m
+[31m-	year = "2005",[m
+[31m-	address = "San Diego, USA",[m
+[31m-}[m
+[31m-[m
+[31m-% technickĂˇ sprĂˇva (nepublikovanĂˇ)[m
+[31m-@techreport{Kang:FODA,[m
+[31m-	author = "Kyo C. Kang and Sholom G. Cohen and James A. Hess and William E. Novak and A. Spencer Peterson",[m
+[31m-	title = "Feature-Oriented Domain Analysis ({FODA}): A Feasibility Study",[m
+[31m-	institution = "Software Engineering Institute, Carnegie Mellon University",[m
+[31m-	address = "Pittsburgh, USA",[m
+[31m-	month = nov,[m
+[31m-	year = 1990,[m
+[31m-	number = "CMU/SEI-90-TR-21",[m
+[31m-}[m
+[31m-[m
+[31m-% zdroj na webe[m
+[31m-@misc{PLP-Framework,[m
+[31m-	author = "Software Engineering Institute, Carnegie Mellon University",[m
+[31m-	title = "A Framework for Software Product Line Practice---Version 5.0",[m
+[31m-	howpublished = "\url{http://www.sei.cmu.edu/productlines/frame_report/}",[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/literatura.log b/literatura.log[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
